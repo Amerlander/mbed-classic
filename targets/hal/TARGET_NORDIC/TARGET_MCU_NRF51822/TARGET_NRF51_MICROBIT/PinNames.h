@@ -177,10 +177,10 @@ typedef enum {
     LED4    = P0_16,
 
     //SDA (SERIAL DATA LINE)
-    I2C_SDA0 = p30,
+    I2C_SDA0 = p20,
 
     //SCL (SERIAL CLOCK LINE)
-    I2C_SCL0 = p0
+    I2C_SCL0 = p19
 
 } PinName;
 
