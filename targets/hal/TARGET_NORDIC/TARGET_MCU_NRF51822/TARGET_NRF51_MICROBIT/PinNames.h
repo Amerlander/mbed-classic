@@ -99,9 +99,10 @@ typedef enum {
     P0_30 = p30,
 
     //PADS
-    PAD3 = p1,
-    PAD2 = p2,
-    PAD1 = p3,
+    PAD1 = p0,
+    PAD2 = p1,
+    PAD3 = p2,
+    PAD4 = p22,
     
 
     //LED MATRIX COLS
@@ -124,7 +125,7 @@ typedef enum {
     //PIN_16
 
     // BUTTON A
-    BUTTON_A = p17,
+    BUTTON_A = p26,
     
 
     //NORMAL PIN (NO SPECIFIED FUNCTIONALITY)
@@ -150,7 +151,7 @@ typedef enum {
     TGT_RX = p25,
 
     //BUTTON B
-    BUTTON_B = p26,
+    BUTTON_B = p17,
     
     //ACCEL INTERRUPT PINS (MMA8653FC)
     ACCEL_INT2 = p27,
