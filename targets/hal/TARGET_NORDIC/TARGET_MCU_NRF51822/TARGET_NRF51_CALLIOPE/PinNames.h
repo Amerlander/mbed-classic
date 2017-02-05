@@ -120,9 +120,12 @@ typedef enum {
     ROW2 = p14,
     ROW3 = p15,
 
+    A_RX = p16,         // TODO p26 in revision 0.4
+    A_TX = p21,         // TODO p27 in revision 0.4
+
     //BUTTON A and B
-    BUTTON_A = p26,
-    BUTTON_B = p17,
+    BUTTON_A = p26,     // TODO p17 in revision 0.4
+    BUTTON_B = p17,     // TODO p16 in revision 0.4
 
     //RGB LED (WS2812b)
     RGBLED = p18,
@@ -139,21 +142,17 @@ typedef enum {
     SCL = p19,
     SDA = p20,
 
-//    //MASTER OUT SLAVE IN
-//    MOSI = p21,
-//
-//    //MASTER IN SLAVE OUT
-//    MISO = p22,
-//
-//    //SERIAL CLOCK
-//    SCK = p23,
+    MOSI = p9,
+    MISO = p8,
+    SCK = p7,
 
     // RX AND TX PINS
     TGT_TX = p24,
     TGT_RX = p25,
 
     //ACCEL INTERRUPT PIN (BMX055)
-    ACCEL_INT = p27,
+    ACCEL_INT = p27,    // TODO p21 in revision 0.4
+
 
     // Not connected
     NC = (int)0xFFFFFFFF,
