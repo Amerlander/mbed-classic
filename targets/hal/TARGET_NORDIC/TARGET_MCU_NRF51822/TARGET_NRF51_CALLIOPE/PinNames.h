@@ -151,7 +151,7 @@ typedef enum {
     TGT_RX = p25,
 
     //ACCEL INTERRUPT PIN (BMX055)
-    ACCEL_INT = p21,
+    ACCEL_INT = p27,
 
 
     // Not connected
